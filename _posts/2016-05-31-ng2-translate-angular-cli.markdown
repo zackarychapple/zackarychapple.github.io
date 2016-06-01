@@ -3,7 +3,7 @@ layout: post
 title:  "ng2-translate on AngularCLI.Beta5"
 date:   2016-05-31 21:34:56 -0400
 categories: angular2
---------------------
+---
 ## Intro
 I needed i8tn in a project I'm working on.  [Olivier Combe][olivier] created a wonderful implementation of angular translate in angular2, [ng2-translate][translate]. 
 
