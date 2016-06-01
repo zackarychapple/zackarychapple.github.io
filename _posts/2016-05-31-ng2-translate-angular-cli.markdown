@@ -27,7 +27,7 @@ import { Component, OnInit, provide } from '@angular/core';
 import { TranslateLoader, TranslateService, TranslateStaticLoader } from "ng2-translate/ng2-translate";
 import { Http } from '@angular/http'
 {% endhighlight %}
-(5) Also in the root component we also need to add the translation providers per the instructions. 
+* Also in the root component we also need to add the translation providers per the instructions. 
 {% highlight javascript %}
 provide(TranslateLoader, {
   useFactory: (http: Http) => new TranslateStaticLoader(http, '/assets/i8tn', '.json'),
