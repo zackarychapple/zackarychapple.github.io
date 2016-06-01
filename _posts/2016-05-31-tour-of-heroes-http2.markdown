@@ -2,8 +2,8 @@
 layout: post
 title:  "Tour of Heroes in HTTP2"
 date:   2016-05-30 22:42:56 -0400
-categories: jekyll update
----
+categories: angular2
+--------------------
 ## Intro
 As part of [my talk][youtube] at [ng-conf][ngconf] earlier this year I talked about the benefits of using Http2 over Http/1.
 
