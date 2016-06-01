@@ -48,7 +48,9 @@ constructor(private translate:TranslateService,){
 7. In each component with text content we want to translate we need to add the translation pipe in the metadata for our component `pipes: [TranslatePipe]`
 8. With the pipe we can begin to use the translations the pipe will match the keys in the json file, for example `HELLO` is the key being used. The `param` is an attribute value on the component class itself.
 {% highlight html %}
-<div>\{\{ 'HELLO' | translate:\{value: param\} \}\}</div>
+ {% raw %}
+<div>{{ 'HELLO' | translate:{value: param} }}</div>
+ {% endraw %}
 {% endhighlight %}
 
 [translate]: https://github.com/ocombe/ng2-translate
