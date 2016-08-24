@@ -189,8 +189,9 @@ CMD ["node", "app.js", "/root/export-app/chromium/src/out/Debug/headless_shell"]
 
 ## Thanks
 None of this could have been done without amazing help from a large group of people:
-[Sam Saccone][sams], [Andrea Cardaci][andrea], [Sami Kyöstilä][sami], [Paul Lewis][paull], [Amin Moshgabadi][amin], [Eric Seckler][eric], [PatrickJS][patrick]
+[Sam Saccone][sams], [Andrea Cardaci][andrea], [Sami Kyöstilä][sami], [Paul Lewis][paull], [Amin Moshgabadi][amin], [Chris Judd][judd],[Eric Seckler][eric], [PatrickJS][patrick]
 
+[judd]: https://twitter.com/javajudd
 [patrick]: https://angularclass.com/
 [eric]: https://www.linkedin.com/in/ericseckler
 [amin]: https://www.linkedin.com/in/amoshg
