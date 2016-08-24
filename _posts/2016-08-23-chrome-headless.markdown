@@ -11,6 +11,8 @@ Back in June Sam Saccone had a post about Chrome Headless that seemingly was lov
 
 With Chrome Headless there are a multitude of opportunities for testing but my goals were a little different.  I wanted to create a way to capture screenshots and generate PDF's.
 
+My main use case was to create a way for easier PDF exports. Why not create a rest service that takes a URL and kicks out a PDF?  This means I can use whatever UI framework I choose to create my exports.
+
 ## Building Chrome headless
 Building Chrome is not short process. Make sure that you read all the steps before you begin so you don't have to start over.
 
