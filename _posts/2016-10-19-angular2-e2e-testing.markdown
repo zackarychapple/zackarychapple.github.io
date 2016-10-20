@@ -6,11 +6,18 @@ categories: angular2
 ---
 ## Intro
 
-With the Angular-CLI it is incredibly easy to create an application, however one thing that I have been struggling to find documentation on is e2e testing.
+With the Angular-CLI it is incredibly easy to create an application, however one thing that I have been struggling to
+find documentation on is e2e testing.
 
-It seems the simplest way to begin exploring e2e testing is to start with John Papa’s [Tour of Heroes][toh] repo.  After recreating the application with the CLI it was time to do some basic tests, or so I thought.
+It seems the simplest way to begin exploring e2e testing is to start with [John Papa’s][john] [Tour of Heroes][toh] repo.
+After recreating the application with the CLI it was time to do some basic tests, or so I thought.
 
-As I started to create the tests I realized that I was getting into promise hell. I’m sure you’ve heard of callback hell, but this is worse, about three layers deep of promise then layers I started thinking that there must be a better way.  Recently I had the opportunity to get some assistance from [Blake Embrey][blake] and in the process of the refactor of a node server he started showing me how to use async await.  Admittedly I am not an expert but this sparked some ideas.  Could I use this same methodology to help simplify my test stack?  Turns out I could.
+As I started to create the tests I realized that I was getting into promise hell. I’m sure you’ve heard of callback hell,
+but this is worse, about three layers deep of promise then layers I started thinking that there must be a better way.
+
+Recently I had the opportunity to get some assistance from [Blake Embrey][blake] and in the process of the refactor
+of a node server he started showing me how to use async await.  Admittedly I am not an expert but this sparked some ideas.
+Could I use this same methodology to help simplify my test stack?  Turns out I could.
 
 ## Code
 ### tsconfig.json
