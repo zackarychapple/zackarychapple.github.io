@@ -15,11 +15,12 @@ After recreating the application with the CLI it was time to do some basic tests
 As I started to create the tests I realized that I was getting into promise hell. I’m sure you’ve heard of callback hell,
 but this is worse, about three layers deep of promise then layers I started thinking that there must be a better way.
 
-Recently I had the opportunity to get some assistance from [Blake Embrey][blake] and in the process of the refactor
-of a node server he started showing me how to use async await.  Admittedly I am not an expert but this sparked some ideas.
+Recently I had the opportunity to get some assistance on a node project from [Blake Embrey][blake] and in the process of
+the refactor of that node server he started showing me how to use async await.  Admittedly I am not an expert but this sparked some ideas.
 Could I use this same methodology to help simplify my test stack?  Turns out I could.
 
 ## Code
+
 ### tsconfig.json
 
 In order to use async await you will need to update your compilation target in your `tsconfig.json`.
