@@ -142,7 +142,7 @@ This post is only possible thanks to [Blake Embrey][blake] and [John Papa][john]
 
 [ponyfoo]: https://ponyfoo.com/articles/understanding-javascript-async-await
 [toh]: https://github.com/johnpapa/angular2-tour-of-heroes
-[repo]: https://github.com/zackarychapple/e2e-demo
+[repo]: https://github.com/zackarychapple/ng2-testing-demo
 [blake]: https://twitter.com/blakeembrey
 [john]: https://twitter.com/John_Papa
 [cli]: https://github.com/angular/angular-cli/graphs/contributors
