@@ -12,6 +12,8 @@ have a chance to look over our last 8 months of work we realized we need to refa
 
 Before refactor though we needed to wrap our code in unit tests as well.
 
+Here is the full [Tour of Heroes][e2e] app tested.
+
 ## Testing Services (Easy Example)
 
 One of the easiest things for us to test are simple http services.  Tour of Heroes had a good example of a simple http service.
