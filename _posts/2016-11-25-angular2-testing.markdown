@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Angular2 Testing with Tour of Heroes"
+title:  "Angular2 Testing Services with Tour of Heroes"
 date:   2016-11-25 08:40:56 -0500
 categories: angular2
 ---
