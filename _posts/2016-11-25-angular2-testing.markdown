@@ -139,8 +139,8 @@ describe('Service: HeroSearch', () => {
 {% endhighlight %}
 
 
-## Testing Services (Through Example)
-For a much more verbose example we have the `hero.service` which converts the observables to promises, and also has some catch logic.
+## Testing Services (Complex Example)
+For a more complex example we have the `hero.service` which converts the observables to promises, and also has some catch logic.
 
 ### hero.service.ts
 
@@ -271,6 +271,20 @@ let setup = function (httpMock) {
       heroService = new HeroService(http);
     })();
 };
+{% endhighlight %}
+
+With the setup complete we can verify that the handle error functionality has been called when a http request fails.
+
+{% highlight javascript %}
+it('should call handle error from the promise when getHeroes fails', (done) => {
+  setup(MockFailedGetHeroesHttp);
+  spyOn(heroService, 'handleError');
+
+  heroService.getHeroes().then(() => {
+    expect(heroService.handleError).toHaveBeenCalled();
+    done();
+  })
+});
 {% endhighlight %}
 
 Here is the complete test for the hero service.
