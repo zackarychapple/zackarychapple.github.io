@@ -9,7 +9,9 @@ categories: angular2 tinymce
 WSYWIG editors are sometimes a necessity in our development lives. Using [TinyMce][tiny] is actually very easy.
 
 In order to start using TinyMce we need to install the dependency. There is an npm module for tinymce.
+
 ### package.json
+
 {% highlight javascript %}
 "tinymce": "^4.5.0",
 {% endhighlight %}
@@ -31,6 +33,7 @@ Creating the component is actually pretty straight forward. The two key componen
 You need to make sure that you initialize the tinymce editor and tear it down.
 
 ### wyswig.component.ts
+
 {% highlight javascript %}
 import { Component, AfterViewInit, OnDestroy } from '@angular/core';
 import { Input, Output } from '@angular/core/src/metadata/directives';
@@ -77,15 +80,18 @@ export class WysiwygEditorComponent implements AfterViewInit, OnDestroy {
 {% endhighlight %}
 
 ### editor.component.html
+
 {% highlight html %}
-<textarea id="{{editorId}}">{{content}}</textarea>
+  <textarea id="{{editorId}}">{{content}}</textarea>
 {% endhighlight %}
 
 ### theme
 Copy theme assets from node_modules to the assets directory.
 
 ## Display
+
 ### Display HTML
+
 {% highlight html %}
 <div #dom></div>
 {% endhighlight %}
@@ -97,7 +103,7 @@ The component itself can hook into the elementRef in our display HTML file.
 {% endhighlight %}
 
 
- Then we can set the innerHTML of our nativeElement to the content from our wyswig element.
+Then we can set the innerHTML of our nativeElement to the content from our wyswig element.
 {% highlight javascript %}
 this.dom.nativeElement.innerHTML = `${data}`;
 {% endhighlight %}
