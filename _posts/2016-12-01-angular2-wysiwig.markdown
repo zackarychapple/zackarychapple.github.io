@@ -82,10 +82,11 @@ export class WysiwygEditorComponent implements AfterViewInit, OnDestroy {
 ### editor.component.html
 
 {% highlight html %}
-  <textarea id="{{editorId}}">{{content}}</textarea>
+  <textarea id="{{editorId}}">{{dom_content}}</textarea>
 {% endhighlight %}
 
 ### theme
+
 Copy theme assets from node_modules to the assets directory.
 
 ## Display
