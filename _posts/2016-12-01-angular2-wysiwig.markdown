@@ -81,8 +81,8 @@ export class WysiwygEditorComponent implements AfterViewInit, OnDestroy {
 
 ### editor.component.html
 
-{% highlight html %}
-<textarea [id]="editorId">\{\{dom_content\}\}</textarea>
+{% highlight javascript %}
+<textarea [id]="editorId">{{dom_content}}</textarea>
 {% endhighlight %}
 
 ### theme
