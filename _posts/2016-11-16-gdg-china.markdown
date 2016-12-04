@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Google Developer Launchpad - Shanghai China"
+date:   2016-11-25 11:40:56 -0500
+categories: angular2
+---
+## Testing With Angular2
+
+In a recent trip to Shanghai for work I was lucky enough to have a chance to speak at the Google Developer Launchpad.
+The talk was on testing in Angular2.  It was interesting because while I thought I was prepared I was not prepared for one thing, language barrier.
+
+My initial thoughts were that I was going to be able to do my talk in English but luckily for me the group was mixed, English speakers and non-English speakers.
+Notice how I used the word luckily?  It really was a great opportunity for me to grow as a speaker.  Getting the chance to work with a translator during my talk
+was amazing!  It stretched me and forced me to slow down.  What a great opportunity!
+
+Here are the [slides from the talk][slides].
+
+![China 1]({{ site.url }}/assets/gdg_china/China1.JPG)
+![China 2]({{ site.url }}/assets/gdg_china/China2.JPG)
+![China 3]({{ site.url }}/assets/gdg_china/China3.JPG)
+![China 4]({{ site.url }}/assets/gdg_china/China4.JPG)
+
+[slides]: https://docs.google.com/presentation/d/1gpQdFYBYbSU3U21rwQZzYszeG8ik8ecb3Ii7ztYJTv4/edit?usp=sharing
